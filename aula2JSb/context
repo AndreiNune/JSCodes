@@ -1,0 +1,30 @@
+Aula utilizando o nodejs:
+
+> var  = 200
+var  = 200
+     ^
+
+Uncaught SyntaxError: Unexpected token '='
+> var n = 200
+undefined
+> typeof n
+'number'
+> n =  'google'
+'google'
+> typeof n
+'string'
+> typeof 6
+'number'
+> typeof function(){}
+'function'
+> typeof undefined
+'undefined'
+> typeof NaN
+'number'
+> typeof Infinity
+'number'
+> typeof null
+'object'
+> typeof []
+'object'
+>
