@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    
+    <style>
+        /* Comentario CSS */
+        body{
+            background-color: blue;
+            color: white;
+            font: normal 20 pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Olá, mundo</h1>  <!--Comentario em HTML -->
+    <p>Já me livrei da maldição!</p>
+
+    <script>
+
+        // Converta os dados de String para number com Number.parseInt(n) ou Somente Number;
+
+
+        var  n1 = Number(window.prompt("Digite um número: ")); //recebe string caso somente digitado a partir do window.prompt
+        var  n2  = Number(window.prompt("Digite outro número: "));  //recebe string 
+        var res = n1 + n2;
+
+        // n.toString( ou string() ) converte um valor para String ex: número para string
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${res}`); // template strings utilizando o placeholder (${n})
+
+    </script>
+
+</body>
+</html>
